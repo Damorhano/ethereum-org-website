@@ -59,7 +59,7 @@
     "i18next": "^21.9.2",
     "is-relative-url": "^3.0.0",
     "lodash": "^4.17.21",
-    "luxon": "^1.28.1",
+    "luxon": "^3.3.0",
     "netlify-lambda": "^2.0.3",
     "polished": "^4.1.4",
     "prism-react-renderer": "^1.1.1",
