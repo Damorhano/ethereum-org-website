@@ -2416,12 +2416,13 @@
     "@formatjs/intl-localematcher" "0.2.25"
     tslib "^2.1.0"
 
-"@formatjs/ecma402-abstract@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@formatjs/ecma402-abstract/-/ecma402-abstract-1.7.1.tgz#1459a9dad654d5d5ec34765965b8e4f22ad6ff81"
-  integrity sha512-FjewVLB2DVEVCvvC7IMffzXVhysvi442i6ed0H7qcrT6xtUpO4vr0oZgpOmsv6D9I4Io0GVebIuySwteS/k3gg==
+"@formatjs/ecma402-abstract@1.14.3":
+  version "1.14.3"
+  resolved "https://registry.yarnpkg.com/@formatjs/ecma402-abstract/-/ecma402-abstract-1.14.3.tgz#6428f243538a11126180d121ce8d4b2f17465738"
+  integrity sha512-SlsbRC/RX+/zg4AApWIFNDdkLtFbkq3LNoZWXZCE/nHVKqoIJyaoQyge/I0Y38vLxowUn9KTtXgusLD91+orbg==
   dependencies:
-    tslib "^2.1.0"
+    "@formatjs/intl-localematcher" "0.2.32"
+    tslib "^2.4.0"
 
 "@formatjs/intl-getcanonicallocales@1.9.2":
   version "1.9.2"
@@ -2446,13 +2447,21 @@
   dependencies:
     tslib "^2.1.0"
 
-"@formatjs/intl-numberformat@^6.1.4":
-  version "6.2.10"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl-numberformat/-/intl-numberformat-6.2.10.tgz#6180bbcbec5c694258241f3f8fe8b0fb02ce4045"
-  integrity sha512-b2pN56nxQ2JnYaT1ji8NYJbDv9rQmQ1BWHgyRJWIjKz6afYeeoVf/O7YIaDFawNOONgRrn5J1SFYtNdQzXJJkg==
+"@formatjs/intl-localematcher@0.2.32":
+  version "0.2.32"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-localematcher/-/intl-localematcher-0.2.32.tgz#00d4d307cd7d514b298e15a11a369b86c8933ec1"
+  integrity sha512-k/MEBstff4sttohyEpXxCmC3MqbUn9VvHGlZ8fauLzkbwXmVrEeyzS+4uhrvAk9DWU9/7otYWxyDox4nT/KVLQ==
   dependencies:
-    "@formatjs/ecma402-abstract" "1.7.1"
-    tslib "^2.1.0"
+    tslib "^2.4.0"
+
+"@formatjs/intl-numberformat@^8.3.5":
+  version "8.4.1"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-numberformat/-/intl-numberformat-8.4.1.tgz#60396e89e3f9505c00fc05e2fb22f9fcc8817f57"
+  integrity sha512-c6EgNEiXgEPRJdr9aXE94fPwFK6s+IsA/CN/NorYMss6qXTj2Eb3R5aqoVUqjkPVVl0p9mqZBLHlVT4iB0mBrQ==
+  dependencies:
+    "@formatjs/ecma402-abstract" "1.14.3"
+    "@formatjs/intl-localematcher" "0.2.32"
+    tslib "^2.4.0"
 
 "@gatsbyjs/parcel-namer-relative-to-cwd@^2.7.0":
   version "2.7.0"
